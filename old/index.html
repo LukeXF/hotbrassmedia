@@ -1,0 +1,263 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Blackwolf Inc, social advertising</title>
+
+  <link rel="shortcut png icon" id="favicon" href="logo.png"> 
+
+  <link href='http://fonts.googleapis.com/css?family=Noto+Serif:400italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="jquery.interactive_bg.js"></script>
+  <style>
+    html {
+      height: 100%;
+    }
+    body {
+      padding: 0;
+      text-align: center;
+      font-family: 'open sans';
+      position: relative;
+      margin: 0;
+      height: 100%;
+    }
+    
+    .ptr-space {
+      background: url(stardust.jpg) repeat;
+    }
+    .wrapper {
+      height: auto !important;
+      height: 100%;
+      margin: 0 auto; 
+      overflow: hidden;
+    }
+    
+    a {
+      text-decoration: none;
+    }
+    
+    
+    
+    h1, h2 {
+      width: 100%;
+      float: left;
+    }
+    h1 {
+      margin-top: 100px;
+      color: #fff;
+      margin-bottom: 5px;
+      font-size: 70px;
+      font-weight: 100;
+    }
+    h2 {
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      letter-spacing: 0px;
+      color: #ddd;
+      font-size: 10px;
+      opacity: 0.5;
+      line-height: 160%;
+      font-weight: 100;
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
+    
+    
+    .pointer {
+      color: #00B0FF;
+      font-family: 'Pacifico';
+      font-size: 24px;
+      margin-top: 15px;
+      position: absolute;
+      top: 130px;
+      right: -40px;
+    }
+    .pointer2 {
+      color: #00B0FF;
+      font-family: 'Pacifico';
+      font-size: 24px;
+      margin-top: 15px;
+      position: absolute;
+      top: 130px;
+      left: -40px;
+    }
+    pre {
+      margin: 80px auto;
+    }
+    pre code {
+      padding: 35px;
+      border-radius: 5px;
+      font-size: 15px;
+      background: rgba(0,0,0,0.1);
+      border: rgba(0,0,0,0.05) 5px solid;
+      max-width: 500px;
+    }
+
+
+    .main {
+      float: left;
+      width: 100%;
+      margin: 0 auto;
+    }
+    
+    
+    .main h1 {
+      padding:20px 50px 10px;
+      float: left;
+      width: 100%;
+      font-size: 60px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      font-weight: 100;
+      margin: 0;
+      padding-top: 55px;
+      font-family: 'Open Sans';
+      letter-spacing: -1px;
+      text-transform: capitalize;
+    }
+   
+    .main h1.demo1 {
+      background: #1ABC9C;
+    }
+    
+    .credit {
+      text-align: center;
+      color: #ddd;
+      padding: 10px 10px;
+      margin: 0 0 0 0;
+      background: rgba(255, 255, 255, 0.09);
+      float: left;
+      width: 100%;
+      margin-bottom: 0px;
+    }
+    .credit a {
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+    }
+    
+    .back {
+      position: absolute;
+      top: 0;
+      left: 0;
+      text-align: center;
+      display: block;
+      padding: 7px;
+      width: 100%;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      background:rgba(255, 255, 255, 0.09);
+      font-weight: bold;
+      font-size: 13px;
+      color: #bbb;
+      -webkit-transition: all 200ms ease-out;
+      -moz-transition: all 200ms ease-out;
+      -o-transition: all 200ms ease-out;
+      transition: all 200ms ease-out;
+      color: #fff;
+    }
+    .back:hover {
+      background: #fff;
+      color: #000;
+    }
+    
+    
+    .page-container {
+      float: left;
+      width: 100%;
+      margin: 0 auto 300px;
+      position: relative;
+    }
+    
+    .header {
+      overflow: hidden;
+      clear: both;
+    }
+    
+    .bg {
+      position: absolute;
+      min-height: 100% !important;
+      width: 100%;
+      z-index: 0;
+    }
+    
+    .ibg-bg {
+      position: absolute;
+    }
+    #btns {
+      width:250px;
+      text-align: center;
+      margin: 0 auto;
+      height: 50px;
+      overflow: hidden;
+      float: none;`
+    }
+    
+    
+    .main {
+      position: relative;
+    }
+
+    img {
+      margin-top: 100px;
+      width: 30%;
+    }
+
+    h2:hover {
+      opacity: 1;
+
+    transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+
+    }
+
+h2 {
+  transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -webkit-transition: all .25s ease-in-out;
+}
+    h2 a, h2 a:hover {
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+  </style>
+  <script>
+    $(document).ready(function(){
+       $(".bg").interactive_bg();
+    });
+    
+    $(window).resize(function() {
+      $(".wrapper > .ibg-bg").css({
+        width: $(window).outerWidth(),
+        height: $(window).outerHeight()
+      })
+    })
+    
+  </script>
+</head>
+<body>
+  <div class="wrapper bg" data-ibg-bg="bg.png">
+    <div class="main">
+      <div class="header">
+        <h1><img src="logo.png"></h1>
+
+        <p class="credit">Website coming soon, while you wait follow us on <a href="https://instagram.com/blackwolf_inc" target="_blank">Instagram</a>.</p>
+        <h2>Developed by <a href="http://elementsoftworks.com" target="_blank">Element Softworks</a></h2>
+
+      </div>
+      
+      
+    </div>
+  </div>
+  
+</body>
+</html>

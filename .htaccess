@@ -1,0 +1,11 @@
+RewriteEngine On
+Options -Indexes
+ErrorDocument 403 http://blackwolfinc.co/
+ErrorDocument 404 http://blackwolfinc.co/
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/$1\.php -f
+RewriteRule ^([^/]+)/?$ $1.php [L]
