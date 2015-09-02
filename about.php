@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Blackwolf Inc, photography, guns, military, weapons, blackwolf, blackwolf inc., blackwolf_inc">
 	<meta name="author" content="Luke Brown, me@luke.sx">
-			
+
 	<title>Blackwolf Inc, social advertising</title>
 
 	<link rel="stylesheet" 	type="text/css"  	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
@@ -50,7 +50,7 @@
 						<li><a href="/">Home</a></li>
 						<li><a class="active" href="about">About</a></li>
 						<li><a href="photos">Photos</a></li>
-						<li><a href="contact">Contact</a></li>							
+						<li><a href="contact">Contact</a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</nav>
@@ -60,26 +60,26 @@
 </div>
 
 <div class="row no-margin">
-	
+
 	<div class="container" style="padding-bottom: 30px;">
 		<div class="col-md-10 col-md-offset-1">
 			<div class="row">
 				<div class="col-md-12">
 
-					<p class="bw-text">
+					<p class="hbm-text">
 						Blackwolf Inc is an ever growing content base for hundreds of thousands of people with a passion for badass content, Offering content involving guns, military and more, Blackwolf Inc is here for you daily dose of awesome. Are you ready to join the Blackwolf army?
 					</p>
 
 				</div>
 				<div class="col-md-4">
-					<h3 class="bw-followers"><span>255,000</span> Instagram followers</h3>
+					<h3 class="hbm-followers"><span>255,000</span> Instagram followers</h3>
 				</div>
 				<div class="col-md-8">
-					<p class="bw-text">We work with many businesses to push their product releases and to share their awesome content to our following. If you are interested in working with us then please contact us through our website and you can join the list of successful project like some of the companies show below.</p>
+					<p class="hbm-text">We work with many businesses to push their product releases and to share their awesome content to our following. If you are interested in working with us then please contact us through our website and you can join the list of successful project like some of the companies show below.</p>
 				</div>
 			</div>
 		</div>
-	</div>	
+	</div>
 
 
 	<div class="bg-clients">
@@ -87,7 +87,7 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 
-					<div class="bw-clients no-padding">
+					<div class="hbm-clients no-padding">
 						<div class="col-md-3"><a href="http://gunsdaily.us" target="_blank">
 							<div class="client"><img src="assets/img/logo/gunsdaily.png" class="img-responsive"></div>
 						</a></div>
@@ -137,7 +137,7 @@
 		</div>
 	</div>
 
-	<div class="bw-footer">
+	<div class="hbm-footer">
 		<div class="container">
 			<div class="col-md-2 col-xs-offset-2 col-md-offset-0 col-xs-8">
 				<img src="assets/img/logo.png" class="img-responsive">
@@ -163,7 +163,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="bw-footer-bottom">
+	<div class="hbm-footer-bottom">
 		<div class="container">
 			<div class="col-md-4">
 				Developed by <a href="http://elementsoftworks.co.uk" target="_blank">Element Softworks</a>
@@ -203,7 +203,7 @@
 		        }
 		    };
 		    httpRequest.open('GET', path);
-		    httpRequest.send(); 
+		    httpRequest.send();
 		}
 
 		// this requests the file and executes a callback with the parsed result once
@@ -211,8 +211,8 @@
 		fetchJSONFile('instagram.php', function(data){
 		    // do something with your data
 		    console.log(data);
-		    $( ".bw-footer span" ).html(', and with ' + Number(data).toLocaleString('en')  + ' followers and growing, isn\'t it time you joined us?');
-		    $( ".bw-followers span" ).html(Number(data).toLocaleString('en'));
+		    $( ".hbm-footer span" ).html(', and with ' + Number(data).toLocaleString('en')  + ' followers and growing, isn\'t it time you joined us?');
+		    $( ".hbm-followers span" ).html(Number(data).toLocaleString('en'));
 		});
 
 		</script>

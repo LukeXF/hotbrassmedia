@@ -48,16 +48,16 @@ $(function() {
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Hot Brass Media</a>
+				<a class="navbar-brand" href="http://dev.nuuke.com:60">Hot Brass Media</a>
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse nav-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="">Our Photos</a></li>
-					<li><a href="">Our Services</a></li>
-					<li><a href="">Our Projects</a></li>
-					<li><a href="">Our Clients</a></li>
+					<li><a href="our-photos">Our Photos</a></li>
+					<li><a href="our-services">Our Services</a></li>
+					<li><a href="our-projects">Our Projects</a></li>
+					<li><a href="our-clients">Our Clients</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
 		</div>
@@ -89,7 +89,7 @@ $(function() {
 					<b class="hbm-uppercase">Featured Service</b>
 					<h1>Social Media Management</h1>
 					<p>From start to finish, we build a strategy based on your business and our experience and put into the motions to increase your brand image and product awareness to your potential customers.</p>
-					<a class="btn btn-default fill" href="#" role="button">view our services</a>
+					<a class="btn btn-default fill" href="our-services" role="button">view our services</a>
 
 				</div>
 				<div class="col-md-6">
@@ -140,7 +140,7 @@ $(function() {
 							<b class="hbm-uppercase">Success Story</b>
 							<h1>Gun Mag Warehouse</h1>
 							<p>The folks over at Gun Mag were looking at a way to boost their sale and they need expert help. With a monthly agreement, we have successfully managed their soical media and made a positive impact on their sales directly from our advertising campaign.</p>
-							<a class="btn btn-default fill" href="#" role="button">see their story</a>
+							<a class="btn btn-default fill" href="our-clients" role="button">see their story</a>
 
 						</div>
 					</div>
@@ -190,7 +190,7 @@ $(function() {
 					</div>
 				</div>
 				<div class="col-md-12" style="margin-top: 30px;">
-					<a class="btn btn-default fill" href="#" role="button">get in touch with us</a>
+					<a class="btn btn-default fill" href="our-services" role="button">get in touch with us</a>
 				</div>
 
 			</div>
@@ -206,7 +206,7 @@ $(function() {
 					<b class="hbm-uppercase">Did you know</b>
 					<h1>We produce our own photography?</h1>
 					<p>If you're unable to provide us with photography or you don't want to worry about shooting your own professional photography then fear no more. We offer high quality production photoshoots of your products that you send to us and we can provide marketing content for your brand.</p>
-					<a class="btn btn-default fill" href="#" role="button">learn more</a>
+					<a class="btn btn-default fill" href="our-photos" role="button">learn more</a>
 				</div>
 
 			</div>
@@ -215,7 +215,7 @@ $(function() {
 
 
 
-	<div class="bw-footer">
+	<div class="hbm-footer">
 		<div class="container">
 			<div class="col-md-2 col-xs-offset-2 col-md-offset-0 col-xs-8">
 				<img src="assets/img/logo.png" class="img-responsive">
@@ -223,9 +223,9 @@ $(function() {
 			<div class="col-md-2 col-md-offset-1 col-xs-6">
 				<h5>Quick Links</h5>
 				<ul>
-					<li><a href="about">Services</a></li>
-					<li><a href="photos">Projects</a></li>
-					<li><a href="contact">Clients</a></li>
+					<li><a href="our-services">Services</a></li>
+					<li><a href="our-projects">Projects</a></li>
+					<li><a href="contact-us">Contact Us</a></li>
 				</ul>
 			</div>
 			<div class="col-md-2 col-xs-6">
@@ -243,7 +243,7 @@ $(function() {
 		</div>
 	</div>
 
-	<div class="bw-footer-bottom">
+	<div class="hbm-footer-bottom">
 		<div class="container">
 			<div class="col-md-4">
 				Developed by <a href="http://elementsoftworks.co.uk" target="_blank">Element Softworks</a>
@@ -254,72 +254,8 @@ $(function() {
 		</div>
 	</div>
 
-
-
-	<div class="container no-padding">
-
-
-	</div>
-
-	<!-- jQuery -->
 	<script src="assets/js/jquery.js"></script>
-
-	<!-- Bootstrap Core JavaScript -->
 	<script src="assets/js/bootstrap.min.js"></script>
 
-
-
-	<script type="text/javascript">
-		jQuery(function($)
-	{
-	    $("#contact_form").submit(function()
-	    {
-	        var email = $("#email").val(); // get email field value
-	        var name = $("#name").val(); // get name field value
-	        var msg = $("#msg").val(); // get message field value
-	        $.ajax(
-	        {
-	            type: "POST",
-	            url: "https://mandrillapp.com/api/1.0/messages/send.json",
-	            data: {
-	                'key': 'f3aumBm_dMe6Inv3vTWD7w',
-	                'message': {
-	                    'from_email': email,
-	                    'from_name': name,
-	                    'headers': {
-	                        'Reply-To': email
-	                    },
-	                    'subject': 'Website Contact Form Submission',
-	                    'text': msg,
-	                    'to': [
-	                    {
-	                        'email': 'blackwolf_inc@yahoo.com',
-	                        'name': 'Black Wolf Inc',
-	                        'type': 'to'
-	                    }]
-	                }
-	            }
-	        })
-	        .done(function(response) {
-	            document.getElementById('submit').innerHTML = 'Message Sent!';
-	            document.getElementById('submit').className += '';
-	            document.getElementById('submit').className += ' btn-success';
-
-	            $("#name").val(''); // reset field after successful submission
-	            $("#email").val(''); // reset field after successful submission
-	            $("#msg").val(''); // reset field after successful submission
-	        })
-	        .fail(function(response) {
-	            document.getElementById('submit').innerHTML = 'Error :(';
-	            document.getElementById('submit').className += '';
-	            document.getElementById('submit').className += ' btn-danger';
-	        });
-	        return false; // prevent page refresh
-	    });
-	});
-
-	</script>
-
 </body>
-
 </html>

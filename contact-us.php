@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Blackwolf Inc, photography, guns, military, weapons, blackwolf, blackwolf inc., blackwolf_inc">
 	<meta name="author" content="Luke Brown, me@luke.sx">
-			
+
 	<title>Blackwolf Inc, social advertising</title>
 
 	<link rel="stylesheet" 	type="text/css"  	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
@@ -50,7 +50,7 @@
 						<li><a href="/">Home</a></li>
 						<li><a href="about">About</a></li>
 						<li><a href="photos">Photos</a></li>
-						<li><a class="active" href="contact">Contact</a></li>							
+						<li><a class="active" href="contact">Contact</a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</nav>
@@ -65,21 +65,21 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
-				<p class="bw-text">
+				<p class="hbm-text">
 					We are available for contact using the contact form below, or if you prefer to use reach us at <a href="mailto:blackwolf_inc@yahoo.com" target="_blank">blackwolf_inc@yahoo.com</a>. Please keep email strictly business related and we will aim to reply to your message within 48 hours. We look forward from hearing from you.
 				</p>
 			</div>
 		</div>
-	</div>	
+	</div>
 
-	<div class="bw-contact">
+	<div class="hbm-contact">
 		<div class="title">Contact Us</div>
 		<div class="container">
 			<form class="form-horizontal" id="contact_form">
-					<fieldset>	 
+					<fieldset>
 							<div class="col-md-8 col-md-offset-2">
 								<input id="name" name="name" type="text" placeholder="Enter your full name here" class=" input-md" required="">
-								<input id="email" name="email" type="text" placeholder="Enter your email address here" class=" input-md" required="">                 
+								<input id="email" name="email" type="text" placeholder="Enter your email address here" class=" input-md" required="">
 								<textarea class="" id="msg" placeholder="Enter your message here" name="msg" cols="6" rows="6"></textarea>
 								<button id="submit" name="submit" class="btn btn-primary">Send Message</button>
 							</div>
@@ -89,7 +89,7 @@
 
 		</div>
 	</div>
-	<div class="bw-footer">
+	<div class="hbm-footer">
 		<div class="container">
 			<div class="col-md-2 col-xs-offset-2 col-md-offset-0 col-xs-8">
 				<img src="assets/img/logo.png" class="img-responsive">
@@ -115,7 +115,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="bw-footer-bottom">
+	<div class="hbm-footer-bottom">
 		<div class="container">
 			<div class="col-md-4">
 				Developed by <a href="http://elementsoftworks.co.uk" target="_blank">Element Softworks</a>
@@ -145,7 +145,7 @@
 
 
 		<script type="text/javascript">
-		jQuery(function($)  
+		jQuery(function($)
 		{
 		    $("#contact_form").submit(function()
 		    {
@@ -207,7 +207,7 @@
 		        }
 		    };
 		    httpRequest.open('GET', path);
-		    httpRequest.send(); 
+		    httpRequest.send();
 		}
 
 		// this requests the file and executes a callback with the parsed result once
@@ -215,7 +215,7 @@
 		fetchJSONFile('instagram.php', function(data){
 		    // do something with your data
 		    console.log(data);
-		    $( ".bw-footer span" ).html(', and with ' + Number(data).toLocaleString('en')  + ' followers and growing, isn\'t it time you joined us?');
+		    $( ".hbm-footer span" ).html(', and with ' + Number(data).toLocaleString('en')  + ' followers and growing, isn\'t it time you joined us?');
 		});
 
 		</script>
