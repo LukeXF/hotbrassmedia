@@ -56,7 +56,7 @@ $(function() {
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="our-photos">Our Photos</a></li>
 					<li><a href="our-services">Our Services</a></li>
-					<li><a href="our-projects">Our Projects</a></li>
+					<li><a href="about-us">About</a></li>
 					<li><a href="our-clients">Our Clients</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
@@ -83,7 +83,7 @@ $(function() {
 				<h5>Quick Links</h5>
 				<ul>
 					<li><a href="our-services">Services</a></li>
-					<li><a href="our-projects">Projects</a></li>
+					<li><a href="about-us">Projects</a></li>
 					<li><a href="contact-us">Contact Us</a></li>
 				</ul>
 			</div>

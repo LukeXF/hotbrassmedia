@@ -127,7 +127,15 @@ p {
     right: 0;
 }
 
+.fill-left:before {
+    left: 100%;
+    right: 0;
+    -webkit-transition: left 0.15s ease-in;
+}
 
+.fill-left:hover:before {
+    left: 0;
+}
 
 
 
@@ -370,10 +378,75 @@ p {
 
 
 
+.nav-tabs {
+    border-bottom: transparent;
+}
+.hbm-about, .hbm-aff, .hbm-unique {
+    color: white;
+    padding: 60px 0 50px;
+}
+
+.hbm-aff {
+    background-color: #333;
+}
+
+.hbm-unique {
+    background-color: #444;
+}
+
+.hbm-aff b {
+    text-transform: uppercase;
+}
+
+.hbm-aff .aff {
+    padding: 20px 0px 40px;
+    margin: 10px 0;
+    background: #222;
+    text-align: center;
+}
+
+.hbm-aff p {
+    padding: 0 26px;
+    text-align: justify;
+}
+
+.hbm-unique .fill:before {
+    background: #333;
+}
+
+.hbm-unique .desc {
+    margin-bottom: 40px;
+}
 
 
 
 
+
+.btn-group {
+    display: table;
+    margin: auto;
+    padding: 0px;
+}
+
+.btn-group .active {
+    background: #333;
+    text-decoration: none;
+    border: 1px solid white;
+}
+.btn-group li {
+    padding: 0px;
+    display: flex;
+    border: 1px solid white;
+}
+
+.btn-group li a {
+    padding: 13px 50px;
+    color: white;
+}
+
+.btn-group a {
+    text-decoration: none;
+}
 
 
 

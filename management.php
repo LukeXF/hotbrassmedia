@@ -6,13 +6,13 @@
 	<meta name="description" content="Hot Brass Media, photography, guns, military, weapons, blackwolf, gunsdaily, blackwolf_inc">
 	<meta name="author" content="Luke Brown, me@luke.sx">
 
-	<title>Hot Brass Media - Our Services</title>
+	<title>Hot Brass Media - Management</title>
 
 	<link rel="stylesheet" 	type="text/css"  	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 	<link rel='stylesheet' 	type='text/css' 	href='http://fonts.googleapis.com/css?family=Raleway:100,400,700,300'>
-	<link rel="stylesheet"  type='text/css'		href="../assets/css/black-tie.min.css">
-	<link rel="stylesheet" 	type="text/css" 	href="../assets/css/style.css">
-	<link rel="icon" 		type="image/png" 	href="../assets/img/logo.png">
+	<link rel="stylesheet"  type='text/css'		href="assets/css/black-tie.min.css">
+	<link rel="stylesheet" 	type="text/css" 	href="assets/css/style.css">
+	<link rel="icon" 		type="image/png" 	href="assets/img/logo.png">
 
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
 	<script src="//use.typekit.net/eoe6bhb.js"></script>
@@ -54,10 +54,10 @@ $(function() {
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse nav-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="../our-photos">Our Photos</a></li>
-					<li><a class="current" href="../our-services">Our Services</a></li>
-					<li><a href="../our-projects">Our Projects</a></li>
-					<li><a href="../our-clients">Our Clients</a></li>
+					<li><a href="our-photos">Our Photos</a></li>
+					<li><a class="current" href="our-services">Our Services</a></li>
+					<li><a href="about-us">About</a></li>
+					<li><a href="our-clients">Our Clients</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
 		</div>
@@ -84,7 +84,7 @@ $(function() {
 					<b class="hbm-uppercase">Starting from $50/per photoshoot</b>
 					<h1>Photo Photography</h1>
 					<p>.<br>.<br>.<br>.</p>
-					<a class="btn btn-default fill" href="../" role="button">view more</a>
+					<a class="btn btn-default fill" href="" role="button">view more</a>
 
 				</div>
 				<div class="col-md-6">
@@ -128,7 +128,7 @@ $(function() {
 					<b class="hbm-uppercase">Starting from $60/hr</b>
 					<h1>Social Media Consulting</h1>
 					<p>.<br>.<br>.<br>.</p>
-					<a class="btn btn-default fill" href="../" role="button">view more</a>
+					<a class="btn btn-default fill" href="" role="button">view more</a>
 
 				</div>
 				<div class="col-md-6">
@@ -163,7 +163,7 @@ $(function() {
 					<b class="hbm-uppercase">Starting from $300/mo</b>
 					<h1>Social Media Management</h1>
 					<p>From start to finish, we build a strategy based on your business and our experience and put into the motions to increase your brand image and product awareness to your potential customers.</p>
-					<a class="btn btn-default fill" href="../" role="button">view more</a>
+					<a class="btn btn-default fill" href="" role="button">view more</a>
 
 				</div>
 				<div class="col-md-6">
@@ -207,7 +207,7 @@ $(function() {
 
     					<b class="hbm-uppercase"></b>
     					<h1>Not sure what you're looking for?</h1>
-    					<a class="btn btn-default fill" href="../contact-us" role="button">we can help</a>
+    					<a class="btn btn-default fill" href="contact-us" role="button">we can help</a>
 
 
     				</div>
@@ -224,22 +224,22 @@ $(function() {
 	<div class="hbm-footer">
 		<div class="container">
 			<div class="col-md-2 col-xs-offset-2 col-md-offset-0 col-xs-8">
-				<img src="../assets/img/logo.png" class="img-responsive">
+				<img src="assets/img/logo.png" class="img-responsive">
 			</div>
 			<div class="col-md-2 col-md-offset-1 col-xs-6">
 				<h5>Quick Links</h5>
 				<ul>
-					<li><a href="../our-services">Services</a></li>
-					<li><a href="../our-projects">Projects</a></li>
-					<li><a href="../contact-us">Contact Us</a></li>
+					<li><a href="our-services">Services</a></li>
+					<li><a href="about-us">Projects</a></li>
+					<li><a href="contact-us">Contact Us</a></li>
 				</ul>
 			</div>
 			<div class="col-md-2 col-xs-6">
 				<h5>Connect</h5>
 				<ul>
-					<li><a href="../https://instagram.com/hotbrassmedia" target="_blank">Instagram</a></li>
-					<li><a href="../https://www.facebook.com/pages/Hot-Brass-Media-LLC/324099477774851?fref=ts" target="_blank">Facebook</a></li>
-					<li><a href="../https://twitter.com/hotbrassmedia" target="_blank">Twitter</a></li>
+					<li><a href="https://instagram.com/hotbrassmedia" target="_blank">Instagram</a></li>
+					<li><a href="https://www.facebook.com/pages/Hot-Brass-Media-LLC/324099477774851?fref=ts" target="_blank">Facebook</a></li>
+					<li><a href="https://twitter.com/hotbrassmedia" target="_blank">Twitter</a></li>
 				</ul>
 			</div>
 			<div class="col-md-5 col-xs-12">
@@ -252,7 +252,7 @@ $(function() {
 	<div class="hbm-footer-bottom">
 		<div class="container">
 			<div class="col-md-4">
-				Developed by <a href="../http://elementsoftworks.co.uk" target="_blank">Element Softworks</a>
+				Developed by <a href="http://elementsoftworks.co.uk" target="_blank">Element Softworks</a>
 			</div>
 			<div class="col-md-4 col-md-offset-4" align="right">
 				Hot Brass Media LLC. 2014 - 2015 &copy;
@@ -262,8 +262,8 @@ $(function() {
 
 
 
-    <script src="../assets/js/jquery.js"></script>
-    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
 
     </body>
 </html>
