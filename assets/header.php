@@ -38,7 +38,6 @@
     });
     </script>
 
-
     <?php
     	function navbar($denavbar){
     		global $activeTab;

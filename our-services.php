@@ -1,6 +1,6 @@
 <?php
 	include("assets/header.php");
-	include("assets/navbar.php")
+	include("assets/navbar.php");
 ?>
 
 <div class="bg bg-3 hbm-bg-small">
