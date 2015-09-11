@@ -20,7 +20,7 @@
 
 				<b class="hbm-uppercase">Starting from $50/per photoshoot</b>
 				<h1>Product Photography</h1>
-				<p>.<br>.<br>.<br>.</p>
+				<p>Product presentation is everything, especially in this age of social media where first impressions will make or break a product. We know what works and we can use this knowledge help you succeed.</p>
 				<a class="btn btn-default fill" href="photography" role="button">view more</a>
 
 			</div>
@@ -31,7 +31,7 @@
 					</div>
 					<div class="col-md-8">
 						<h3>Step One: Dicuss</h3>
-						<p>.<br>.<br>.<br>.</p>
+						<p>Lets sit down and figure out your goals for your photo sets. How many photos will you need? what are the photos for? what does your budget look like? etc.</p>
 					</div>
 				</div>
 				<div class="row">
@@ -40,7 +40,7 @@
 					</div>
 					<div class="col-md-8">
 						<h3>Step Two: Shoot</h3>
-						<p>.<br>.<br>.<br>.</p>
+						<p>Once we know what you're looking for our team will plan and put together one or multiple photo shoots to meet your needs.</p>
 					</div>
 				</div>
 				<div class="row">
@@ -49,7 +49,7 @@
 					</div>
 					<div class="col-md-8">
 						<h3>Step Three: Edit</h3>
-						<p>.<br>.<br>.<br>.</p>
+						<p>Once you are happy with the photoshoot results we will take the photos and edit them to perfection.</p>
 					</div>
 				</div>
 			</div>
@@ -65,18 +65,18 @@
 
 				<b class="hbm-uppercase">Starting from $60/hr</b>
 				<h1>Social Media Advertising</h1>
-				<p>.<br>.<br>.<br>.</p>
+				<p>Hot Brass Media was built around advertising through social media. We have been able to build up a collection of high quality social media accounts that we offer discounted rates on when you book through us.</p>
 				<a class="btn btn-default fill" href="consulting" role="button">view more</a>
 
 			</div>
 			<div class="col-md-6">
 				<div class="row" style="padding-top:50px;">
 					<div class="col-md-4">
-						<i class="btl bt-phone bt-4x bt-white float-right"></i>
+						<i class="btl bt-inbox bt-4x bt-white float-right"></i>
 					</div>
 					<div class="col-md-8">
 						<h3>Step One: Dicuss</h3>
-						<p>.<br>.<br>.<br>.</p>
+						<p>Send us your photos</p>
 					</div>
 				</div>
 				<div class="row" style="padding-bottom:50px;">
@@ -101,7 +101,7 @@
 
 				<b class="hbm-uppercase">Starting from $60/hr</b>
 				<h1>Social Media Consulting</h1>
-				<p>.<br>.<br>.<br>.</p>
+				<p>The ever changing landscape of social media can get confusing, let us point you in the right direction. We can help you gain a better understanding of social media and and how to navigate it.</p>
 				<a class="btn btn-default fill" href="consulting" role="button">view more</a>
 
 			</div>
@@ -180,37 +180,37 @@
 			<div class="col-md-6" style="padding-top:120px; padding-bottom: 30px;">
 
 				<b class="hbm-uppercase">Starting from $300/per website</b>
-				<h1>Website Development</h1>
+				<h1>Website Development &amp; Branding</h1>
 				<p>From a simple business portfolio to complex billing management systems, we have the knowledge and experience to create you a web solution for your business that works.</p>
-				<a class="btn btn-default fill" href="photography" role="button">view more</a>
+				<a class="btn btn-default fill" role="button">coming soon</a>
 
 			</div>
 			<div class="col-md-6">
 				<div class="row">
 					<div class="col-md-4">
-						<i class="btl bt-comments bt-4x bt-white float-right"></i>
+						<i class="btl bt-bars bt-4x bt-white float-right"></i>
 					</div>
 					<div class="col-md-8">
-						<h3>Step One: Dicuss</h3>
-						<p>.<br>.<br>.<br>.</p>
+						<h3>Step One: Layout</h3>
+						<p>The first step is to establish what you want your brand to be represented as, what you what the design and structure of your website to appear to your clients.</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-4">
-						<i class="btl bt-camera bt-4x bt-white float-right"></i>
+						<i class="btl bt-code bt-4x bt-white float-right"></i>
 					</div>
 					<div class="col-md-8">
-						<h3>Step Two: Shoot</h3>
-						<p>.<br>.<br>.<br>.</p>
+						<h3>Step Two: Develop</h3>
+						<p>Next we take your ideas and our designs and put them together to produce a quality developed website. </p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-4">
-						<i class="btl bt-edit bt-4x bt-white float-right"></i>
+						<i class="btl bt-cloud bt-4x bt-white float-right"></i>
 					</div>
 					<div class="col-md-8">
-						<h3>Step Three: Edit</h3>
-						<p>.<br>.<br>.<br>.</p>
+						<h3>Step Three: Go Live</h3>
+						<p>After you are satisfied and have reviewed our work we will upload your website to our secure servers, leaving you with a website you can be proud of. </p>
 					</div>
 				</div>
 			</div>
