@@ -1,6 +1,6 @@
 <?php
 	include("assets/header.php");
-	include("assets/navbar.php")
+	include("assets/navbar.php");
 ?>
 
 <div class="bg">
@@ -123,10 +123,32 @@
 				<div class="row">
 					<div class="col-md-12 feature">
 						<i class="btl bt-gear bt-4x bt-white"></i>
+						<h2>Social Media Advertising</h2>
+					</div>
+					<div class="col-md-12">
+						<p>Built around advertising through social media, we have been able to build up a collection of high quality social media accounts that we offer discounted rates on when you book through us.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-md-offset-2">
+				<div class="row">
+					<div class="col-md-12 feature">
+						<i class="btl bt-gear bt-4x bt-white"></i>
 						<h2>Social Media Managing</h2>
 					</div>
 					<div class="col-md-12">
 						<p>Too much on your plate to deal with the full time job of running your social media on a daily basis? Let us take care of it for you! Rest easy knowing your social media will always be updated.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-12 feature">
+						<i class="btl bt-gear bt-4x bt-white"></i>
+						<h2>Website Development</h2>
+					</div>
+					<div class="col-md-12">
+						<p>From a simple business portfolio to complex billing management systems, we have the knowledge and experience to create you a web solution for your business that works.</p>
 					</div>
 				</div>
 			</div>
@@ -153,3 +175,8 @@
 		</div>
 	</div>
 </div>
+
+
+<?php
+	include("assets/footer.php");
+?>

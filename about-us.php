@@ -1,6 +1,7 @@
 <?php
 	include("assets/header.php");
-	include("assets/navbar.php")
+	$activeTab = "About Us";
+	include("assets/navbar.php");
 ?>
 
 <div class="bg bg-4 hbm-bg-small">

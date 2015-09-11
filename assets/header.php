@@ -60,7 +60,7 @@
     				echo "</li>";
 
     			} else {
-    				echo "<li class='" . $class . "'><a class='animate' href='$url'>";
+    				echo "<li class=''><a class='animate " . $class . "' href='$url'>";
     				echo $x;
     				echo "</a></li>";
     			}

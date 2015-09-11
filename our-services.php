@@ -1,5 +1,6 @@
 <?php
 	include("assets/header.php");
+	$activeTab = "Our Services";
 	include("assets/navbar.php");
 ?>
 
@@ -66,26 +67,17 @@
 				<b class="hbm-uppercase">Starting from $60/hr</b>
 				<h1>Social Media Advertising</h1>
 				<p>Hot Brass Media was built around advertising through social media. We have been able to build up a collection of high quality social media accounts that we offer discounted rates on when you book through us.</p>
-				<a class="btn btn-default fill" href="consulting" role="button">view more</a>
+				<a class="btn btn-default fill" role="button">coming soon</a>
 
 			</div>
 			<div class="col-md-6">
-				<div class="row" style="padding-top:50px;">
+				<div class="row" style="padding:100px 0 100px;">
 					<div class="col-md-4">
-						<i class="btl bt-inbox bt-4x bt-white float-right"></i>
+						<i class="btl bt-key bt-4x bt-white float-right"></i>
 					</div>
 					<div class="col-md-8">
-						<h3>Step One: Dicuss</h3>
-						<p>Send us your photos</p>
-					</div>
-				</div>
-				<div class="row" style="padding-bottom:50px;">
-					<div class="col-md-4">
-						<i class="btl bt-olist bt-4x bt-white float-right"></i>
-					</div>
-					<div class="col-md-8">
-						<h3>Step Two: Options</h3>
-						<p>.<br>.<br>.<br>.</p>
+						<h3>Step One: Connect</h3>
+						<p>Go to Nuuke.com for simplified advertising and marketing through social media. Gain access to over 2 million active followers across multiple Instagram pages.</p>
 					</div>
 				</div>
 			</div>
@@ -112,7 +104,7 @@
 					</div>
 					<div class="col-md-8">
 						<h3>Step One: Dicuss</h3>
-						<p>.<br>.<br>.<br>.</p>
+						<p>Sit down and talk to one of our social media experts about how we can help improve your company's social media presence.</p>
 					</div>
 				</div>
 				<div class="row" style="padding-bottom:50px;">
@@ -121,7 +113,7 @@
 					</div>
 					<div class="col-md-8">
 						<h3>Step Two: Options</h3>
-						<p>.<br>.<br>.<br>.</p>
+						<p>Social media is more complicated than many people think, with this ever changing landscape we will give you a list of suggestions tailored to your brand and company to improve your social media presence.</p>
 					</div>
 				</div>
 			</div>

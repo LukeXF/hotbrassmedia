@@ -1,7 +1,9 @@
 <?php
 	include("assets/header.php");
+	$activeTab = "Our Photos";
 	include("assets/navbar.php");
 ?>
+	<link rel="stylesheet" 	type="text/css" 	href="assets/css/lightbox.css">
 
 <div class="bg bg-2 hbm-bg-small">
 
@@ -93,6 +95,8 @@
 	</div>
 </div>
 
+
+<script src="assets/js/lightbox.min.js"></script>
 <?php
 	include("assets/footer.php");
 ?>

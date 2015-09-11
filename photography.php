@@ -1,5 +1,6 @@
 <?php
 	include("assets/header.php");
+	$activeTab = "Our Services";
 	include("assets/navbar.php");
 ?>
 

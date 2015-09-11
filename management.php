@@ -1,58 +1,122 @@
 <?php
 	include("assets/header.php");
+	$activeTab = "Our Services";
 	include("assets/navbar.php");
 ?>
 
-<div class="bg bg-3 hbm-bg-small">
+<div class="bg bg-2 hbm-bg-small">
 
 	<div class="container">
-		<h1>The Services</h1>
+		<h1>Outsourcing your social media</h1>
 	</div>
 
 </div>
 
 
 
-<div class="hbm-welcome">
+<div class="hbm-service">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6" style="padding-top:120px; padding-bottom: 30px;">
+			<div class="col-md-10 col-md-offset-1">
 
-				<b class="hbm-uppercase">Starting from $50/per photoshoot</b>
-				<h1>Photo Photography</h1>
-				<p>.<br>.<br>.<br>.</p>
-				<a class="btn btn-default fill" href="" role="button">view more</a>
+				<b class="hbm-uppercase"></b>
+				<h1>Take the stress out of your public image</h1>
+				<p>
+					Running your social media can be like a full time another full time job. Not to mention taking the time to learn what makes marketing on social media successful. We have a simple solution, Let us take over the day to day operations of running your social media accounts across all platforms. Depending on the package you select this can be daily photo and video postings all the way up to creating product ads, product photography, and working on ad campaigns.
+				</p>
+
 
 			</div>
-			<div class="col-md-6">
-				<div class="row">
-					<div class="col-md-4">
-						<i class="btl bt-comments bt-4x bt-white float-right"></i>
+		</div>
+	</div>
+</div>
+
+
+<div class="hbm-pricing">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12">
+				<b class="hbm-uppercase">Management Pricing</b>
+			</div>
+			<div class="col-md-3 col-xs-6">
+				<div class="pricing-module">
+					<div class="pricing-header">
+						<b class="hbm-uppercase" style="background-color: #965A38; ">Bronze</b>
+						<h1>$300/mo</h1>
 					</div>
-					<div class="col-md-8">
-						<h3>Step One: Dicuss</h3>
-						<p>.<br>.<br>.<br>.</p>
+					<ul>
+						<li>3 Photos Per week on Instagram</li>
+						<li>1 Facebook post per week</li>
+						<li>1 Ad Creation Per Month</li>
+						<li>-</li>
+					</ul>
+
+					<div class="pricing-btn">
+						<a class="btn btn-default fill" href="contact-us" role="button">find out more</a>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<i class="btl bt-camera bt-4x bt-white float-right"></i>
-					</div>
-					<div class="col-md-8">
-						<h3>Step Two: Shoot</h3>
-						<p>.<br>.<br>.<br>.</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<i class="btl bt-edit bt-4x bt-white float-right"></i>
-					</div>
-					<div class="col-md-8">
-						<h3>Step Three: Edit</h3>
-						<p>.<br>.<br>.<br>.</p>
-					</div>
+
 				</div>
 			</div>
+			<div class="col-md-3 col-xs-6">
+				<div class="pricing-module">
+					<div class="pricing-header">
+						<b class="hbm-uppercase" style="background-color: #A8A8A8; ">Silver</b>
+						<h1>$600/mo</h1>
+					</div>
+					<ul>
+						<li>1 Photo per day on Instagram.</li>
+						<li>2-3 Facebook posts per week.</li>
+						<li>-</li>
+						<li>-</li>
+
+					</ul>
+
+					<div class="pricing-btn">
+						<a class="btn btn-default fill" href="contact-us" role="button">find out more</a>
+					</div>
+
+				</div>
+			</div>
+			<div class="col-md-3 col-xs-6">
+				<div class="pricing-module">
+					<div class="pricing-header">
+						<b class="hbm-uppercase" style="background-color: #C98910; ">Gold</b>
+						<h1>$1000/mo</h1>
+					</div>
+					<ul>
+						<li>Bronze - $300</li>
+						<li>3 Photos Per week on Instagram</li>
+						<li>1 Facebook post per week</li>
+						<li>1 Ad Creation Per Month</li>
+					</ul>
+
+					<div class="pricing-btn">
+						<a class="btn btn-default fill" href="contact-us" role="button">find out more</a>
+					</div>
+
+				</div>
+			</div>
+			<div class="col-md-3 col-xs-6">
+				<div class="pricing-module">
+					<div class="pricing-header">
+						<b class="hbm-uppercase" style="background-color: #192B3A; ">Platinum</b>
+						<h1>$1500/mo</h1>
+					</div>
+					<ul>
+						<li>Bronze - $300</li>
+						<li>3 Photos Per week on Instagram</li>
+						<li>1 Facebook post per week</li>
+						<li>1 Ad Creation Per Month</li>
+					</ul>
+
+					<div class="pricing-btn">
+						<a class="btn btn-default fill" href="contact-us" role="button">find out more</a>
+					</div>
+
+				</div>
+			</div>
+
 		</div>
 	</div>
 </div>
@@ -60,81 +124,26 @@
 <div class="hbm-service">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6" style="padding-top:100px; padding-bottom: 20px;">
+			<div class="col-md-10 col-md-offset-1">
 
-				<b class="hbm-uppercase">Starting from $60/hr</b>
-				<h1>Social Media Consulting</h1>
-				<p>.<br>.<br>.<br>.</p>
-				<a class="btn btn-default fill" href="" role="button">view more</a>
+				<h1>Some text</h1>
+				<p>
+					Hot Brass Media is not a corporation, we are a small team that strives to offer the best service possible. With this said before each consultation your personal consultant will carefully look through all your social media and critique how you are currently marketing yourself. If you have not begun this gives us a clean slate to begin with.
+				</p>
+				<p>
+					Your consultant will take time to show you and explain solutions that will help you better manage your social media. They are also an open book, any question you have they can answer. If they don’t know the answer they will find one.
+				</p>
+				<p>
+					If you are interested in a consultation they begin at $30 per hour, simply fill out the form below and we will contact you back as soon as possible.
+				</p>
 
-			</div>
-			<div class="col-md-6">
-				<div class="row" style="padding-top:50px;">
-					<div class="col-md-4">
-						<i class="btl bt-phone bt-4x bt-white float-right"></i>
-					</div>
-					<div class="col-md-8">
-						<h3>Step One: Dicuss</h3>
-						<p>.<br>.<br>.<br>.</p>
-					</div>
-				</div>
-				<div class="row" style="padding-bottom:50px;">
-					<div class="col-md-4">
-						<i class="btl bt-olist bt-4x bt-white float-right"></i>
-					</div>
-					<div class="col-md-8">
-						<h3>Step Two: Options</h3>
-						<p>.<br>.<br>.<br>.</p>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>
 </div>
 
-<div class="hbm-service-2">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6" style="padding-top:120px; padding-bottom: 30px;">
 
-				<b class="hbm-uppercase">Starting from $300/mo</b>
-				<h1>Social Media Management</h1>
-				<p>From start to finish, we build a strategy based on your business and our experience and put into the motions to increase your brand image and product awareness to your potential customers.</p>
-				<a class="btn btn-default fill" href="" role="button">view more</a>
 
-			</div>
-			<div class="col-md-6">
-				<div class="row">
-					<div class="col-md-4">
-						<i class="btl bt-light-bulb bt-4x bt-white float-right"></i>
-					</div>
-					<div class="col-md-8">
-						<h3>Step One: Planning</h3>
-						<p>Lets sit down, we'll go through your brand and work out your strong points and where you business is lacking it's true potential in advertising.
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<i class="btl bt-pencil bt-4x bt-white float-right"></i>
-					</div>
-					<div class="col-md-8">
-						<h3>Step Two: Action</h3>
-						<p>Now we put into a plan on how we're going to improve your social media presence, our action plan covers in detail your options and how we're going to make you more successful.
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<i class="btl bt-thumbs-up bt-4x bt-white float-right"></i>
-					</div>
-					<div class="col-md-8">
-						<h3>Step Three: Review</h3>
-						<p>Watch as your sales increase, watch as your public interaction improves resulting in a happy customer and a happy you.
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
 
 
 <div class="hbm-photos-outro">
@@ -146,11 +155,61 @@
 				<h1>Not sure what you're looking for?</h1>
 				<a class="btn btn-default fill" href="contact-us" role="button">we can help</a>
 
+
 			</div>
 		</div>
 	</div>
 </div>
 
-<?php
-	include("assets/footer.php");
-?>
+
+
+
+
+
+
+<div class="hbm-footer">
+	<div class="container">
+		<div class="col-md-2 col-xs-offset-2 col-md-offset-0 col-xs-8">
+			<img src="assets/img/logo.png" class="img-responsive">
+		</div>
+		<div class="col-md-2 col-md-offset-1 col-xs-6">
+			<h5>Quick Links</h5>
+			<ul>
+				<li><a href="our-services">Services</a></li>
+				<li><a href="about-us">Projects</a></li>
+				<li><a href="contact-us">Contact Us</a></li>
+			</ul>
+		</div>
+		<div class="col-md-2 col-xs-6">
+			<h5>Connect</h5>
+			<ul>
+				<li><a href="https://instagram.com/hotbrassmedia" target="_blank">Instagram</a></li>
+				<li><a href="https://www.facebook.com/pages/Hot-Brass-Media-LLC/324099477774851?fref=ts" target="_blank">Facebook</a></li>
+				<li><a href="https://twitter.com/hotbrassmedia" target="_blank">Twitter</a></li>
+			</ul>
+		</div>
+		<div class="col-md-5 col-xs-12">
+			<h5>Mission</h5>
+			<p>We created the Hot Brass Media group to develop a stable portfolio that companies could rely on to boost their public image with their product and our marketing experience.</p>
+		</div>
+	</div>
+</div>
+
+<div class="hbm-footer-bottom">
+	<div class="container">
+		<div class="col-md-4">
+			Developed by <a href="http://elementsoftworks.co.uk" target="_blank">Element Softworks</a>
+		</div>
+		<div class="col-md-4 col-md-offset-4" align="right">
+			Hot Brass Media LLC. 2014 - 2015 &copy;
+		</div>
+	</div>
+</div>
+
+
+
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+
+</body>
+</html>

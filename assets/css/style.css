@@ -206,6 +206,55 @@ p {
 
 
 
+.hbm-pricing {
+    color: white;
+    padding: 60px 15px 50px;
+    text-align: center;
+}
+
+.hbm-pricing .pricing-header {
+    background-color: #333;
+    margin-top: 20px;
+}
+
+.hbm-pricing .pricing-header b {
+    background-color: #292929;
+    display: block;
+    padding: 5px;
+}
+
+
+.hbm-pricing .pricing-header h1 {
+    padding: 30px 10px;
+    margin-bottom: 0px;
+}
+
+.hbm-pricing .pricing-module {
+    background-color: #121212;
+}
+
+.hbm-pricing .pricing-module ul {
+    padding: 0px;
+}
+
+.hbm-pricing .pricing-module li {
+    list-style-type: none;
+    font-weight: 100;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.hbm-pricing .pricing-module li:nth-child(odd) {
+    background-color: #191919
+}
+
+.hbm-pricing .pricing-module .pricing-btn {
+    background-color: #333;
+    padding: 30px;
+}
+.hbm-pricing .pricing-module .pricing-btn .fill:before {
+   background: #222;
+}
 
 
 

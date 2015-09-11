@@ -1,48 +1,99 @@
 <?php
 	include("assets/header.php");
+	$activeTab = "Our Services";
 	include("assets/navbar.php");
 ?>
 
-<div class="hbm-welcome">
+<div class="bg bg-3 hbm-bg-small">
+
+	<div class="container">
+		<h1>Consulting</h1>
+	</div>
+
+</div>
+
+
+
+<div class="hbm-service">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6" style="padding-top:120px; padding-bottom: 30px;">
+			<div class="col-md-10 col-md-offset-1">
 
-				<b class="hbm-uppercase">Starting from $50/per photoshoot</b>
-				<h1>Photo Photography</h1>
-				<p>.<br>.<br>.<br>.</p>
-				<a class="btn btn-default fill" href="" role="button">view more</a>
+				<b class="hbm-uppercase"></b>
+				<h1>Consulting That Works</h1>
+				<p>
+					Social Media is a relatively new platform within advertising and marketing, many companies have yet to pick up on the importance of social media. They have yet to see the potential that platforms such as Instagram, Facebook, and Twitter have to offer. They have massive marketing potential, but only if you know how to work the system. We’ve been marketing and branding within the Social media landscape for over 3 years.
+				</p>
+
 
 			</div>
-			<div class="col-md-6">
+		</div>
+	</div>
+</div>
+
+<style>
+	.hbm-features h2 {
+		font-size: 23px;
+		padding: 0px 50px 30px;
+	}
+</style>
+
+<div class="hbm-features">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12">
+				<b class="hbm-uppercase">Some of the topics we will cover</b>
+			</div>
+			<div class="col-md-4">
 				<div class="row">
-					<div class="col-md-4">
-						<i class="btl bt-comments bt-4x bt-white float-right"></i>
-					</div>
-					<div class="col-md-8">
-						<h3>Step One: Dicuss</h3>
-						<p>.<br>.<br>.<br>.</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<i class="btl bt-camera bt-4x bt-white float-right"></i>
-					</div>
-					<div class="col-md-8">
-						<h3>Step Two: Shoot</h3>
-						<p>.<br>.<br>.<br>.</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<i class="btl bt-edit bt-4x bt-white float-right"></i>
-					</div>
-					<div class="col-md-8">
-						<h3>Step Three: Edit</h3>
-						<p>.<br>.<br>.<br>.</p>
+					<div class="col-md-12 feature">
+						<i class="btl bt-fork bt-4x bt-white"></i>
+						<h2>Growing your social media</h2>
 					</div>
 				</div>
 			</div>
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-12 feature">
+						<i class="btl bt-megaphone bt-4x bt-white"></i>
+						<h2>Marketing to your following</h2>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-12 feature">
+						<i class="btl bt-label bt-4x bt-white"></i>
+						<h2>What types of posts work best</h2>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-12 feature">
+						<i class="btl bt-calendar bt-4x bt-white"></i>
+						<h2>Best days and time of days for posting content</h2>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-12 feature">
+						<i class="btl bt-bar-chart bt-4x bt-white"></i>
+						<h2>Diverse content creation suggestions</h2>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-12 feature">
+						<i class="btl bt-notebook bt-4x bt-white"></i>
+						<h2>Types of Advertisements and what works best</h2>
+					</div>
+				</div>
+			</div>
+
 		</div>
 	</div>
 </div>
@@ -50,97 +101,42 @@
 <div class="hbm-service">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6" style="padding-top:100px; padding-bottom: 20px;">
+			<div class="col-md-10 col-md-offset-1">
 
-				<b class="hbm-uppercase">Starting from $60/hr</b>
-				<h1>Social Media Consulting</h1>
-				<p>.<br>.<br>.<br>.</p>
-				<a class="btn btn-default fill" href="" role="button">view more</a>
+				<h1>Keeping it Personal</h1>
+				<p>
+					Hot Brass Media is not a corporation, we are a small team that strives to offer the best service possible. With this said before each consultation your personal consultant will carefully look through all your social media and critique how you are currently marketing yourself. If you have not begun this gives us a clean slate to begin with.
+				</p>
+				<p>
+					Your consultant will take time to show you and explain solutions that will help you better manage your social media. They are also an open book, any question you have they can answer. If they don’t know the answer they will find one.
+				</p>
+				<p>
+					If you are interested in a consultation they begin at $30 per hour, simply fill out the form below and we will contact you back as soon as possible.
+				</p>
 
-			</div>
-			<div class="col-md-6">
-				<div class="row" style="padding-top:50px;">
-					<div class="col-md-4">
-						<i class="btl bt-phone bt-4x bt-white float-right"></i>
-					</div>
-					<div class="col-md-8">
-						<h3>Step One: Dicuss</h3>
-						<p>.<br>.<br>.<br>.</p>
-					</div>
-				</div>
-				<div class="row" style="padding-bottom:50px;">
-					<div class="col-md-4">
-						<i class="btl bt-olist bt-4x bt-white float-right"></i>
-					</div>
-					<div class="col-md-8">
-						<h3>Step Two: Options</h3>
-						<p>.<br>.<br>.<br>.</p>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>
 </div>
 
-<div class="hbm-service-2">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6" style="padding-top:120px; padding-bottom: 30px;">
 
-				<b class="hbm-uppercase">Starting from $300/mo</b>
-				<h1>Social Media Management</h1>
-				<p>From start to finish, we build a strategy based on your business and our experience and put into the motions to increase your brand image and product awareness to your potential customers.</p>
-				<a class="btn btn-default fill" href="" role="button">view more</a>
 
-			</div>
-			<div class="col-md-6">
-				<div class="row">
-					<div class="col-md-4">
-						<i class="btl bt-light-bulb bt-4x bt-white float-right"></i>
-					</div>
-					<div class="col-md-8">
-						<h3>Step One: Planning</h3>
-						<p>Lets sit down, we'll go through your brand and work out your strong points and where you business is lacking it's true potential in advertising.
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<i class="btl bt-pencil bt-4x bt-white float-right"></i>
-					</div>
-					<div class="col-md-8">
-						<h3>Step Two: Action</h3>
-						<p>Now we put into a plan on how we're going to improve your social media presence, our action plan covers in detail your options and how we're going to make you more successful.
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<i class="btl bt-thumbs-up bt-4x bt-white float-right"></i>
-					</div>
-					<div class="col-md-8">
-						<h3>Step Three: Review</h3>
-						<p>Watch as your sales increase, watch as your public interaction improves resulting in a happy customer and a happy you.
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
 
 
 <div class="hbm-photos-outro">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
 
-					<b class="hbm-uppercase"></b>
-					<h1>Not sure what you're looking for?</h1>
-					<a class="btn btn-default fill" href="contact-us" role="button">we can help</a>
+				<b class="hbm-uppercase"></b>
+				<h1>Not sure what you're looking for?</h1>
+				<a class="btn btn-default fill" href="contact-us" role="button">we can help</a>
 
 
-				</div>
 			</div>
 		</div>
 	</div>
+</div>
 
 
 
