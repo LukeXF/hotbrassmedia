@@ -81,7 +81,7 @@
 						<b class="hbm-uppercase">Success Story</b>
 						<h1>Gun Mag Warehouse</h1>
 						<p>The folks over at Gun Mag were looking at a way to boost their sale and they need expert help. With a monthly agreement, we have successfully managed their soical media and made a positive impact on their sales directly from our advertising campaign.</p>
-						<a class="btn btn-default fill" href="our-clients" role="button">see their story</a>
+						<a class="btn btn-default fill" href="our-clients" role="button">see more of our clients</a>
 
 					</div>
 				</div>
@@ -133,7 +133,7 @@
 			<div class="col-md-4 col-md-offset-2">
 				<div class="row">
 					<div class="col-md-12 feature">
-						<i class="btl bt-gear bt-4x bt-white"></i>
+						<i class="btl bt-notebook bt-4x bt-white"></i>
 						<h2>Social Media Managing</h2>
 					</div>
 					<div class="col-md-12">
@@ -144,7 +144,7 @@
 			<div class="col-md-4">
 				<div class="row">
 					<div class="col-md-12 feature">
-						<i class="btl bt-gear bt-4x bt-white"></i>
+						<i class="btl bt-code bt-4x bt-white"></i>
 						<h2>Website Development</h2>
 					</div>
 					<div class="col-md-12">

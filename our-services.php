@@ -22,7 +22,7 @@
 				<b class="hbm-uppercase">Starting from $50/per photoshoot</b>
 				<h1>Product Photography</h1>
 				<p>Product presentation is everything, especially in this age of social media where first impressions will make or break a product. We know what works and we can use this knowledge help you succeed.</p>
-				<a class="btn btn-default fill" href="photography" role="button">view more</a>
+				<a class="btn btn-default fill" href="photography" role="button">coming soon</a>
 
 			</div>
 			<div class="col-md-6">
@@ -67,7 +67,7 @@
 				<b class="hbm-uppercase">Starting from $60/hr</b>
 				<h1>Social Media Advertising</h1>
 				<p>Hot Brass Media was built around advertising through social media. We have been able to build up a collection of high quality social media accounts that we offer discounted rates on when you book through us.</p>
-				<a class="btn btn-default fill" role="button">coming soon</a>
+				<a class="btn btn-default fill" href="advertising" role="button">view more</a>
 
 			</div>
 			<div class="col-md-6">
@@ -174,7 +174,7 @@
 				<b class="hbm-uppercase">Starting from $300/per website</b>
 				<h1>Website Development &amp; Branding</h1>
 				<p>From a simple business portfolio to complex billing management systems, we have the knowledge and experience to create you a web solution for your business that works.</p>
-				<a class="btn btn-default fill" role="button">coming soon</a>
+				<a class="btn btn-default fill" href="web-development" role="button">view more</a>
 
 			</div>
 			<div class="col-md-6">

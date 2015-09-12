@@ -7,7 +7,7 @@
 <div class="bg bg-2 hbm-bg-small">
 
 	<div class="container">
-		<h1>Outsourcing your social media</h1>
+		<h1>Outsourcing Your Social Media</h1>
 	</div>
 
 </div>
@@ -46,10 +46,11 @@
 						<h1>$300/mo</h1>
 					</div>
 					<ul>
-						<li>3 Photos Per week on Instagram</li>
-						<li>1 Facebook post per week</li>
-						<li>1 Ad Creation Per Month</li>
-						<li>-</li>
+						<li>(3) Posts to Instagram <b>per Week</b></li>
+						<li>(1) Facebook post <b>per week</b></li>
+						<li>(3) Tweets <b>per Week</b></li>
+						<li>(3) Posts to Tumblr <b>per Week</b> (If Applicable)</li>
+						<li>Monthly Page Progress Updates</li>
 					</ul>
 
 					<div class="pricing-btn">
@@ -65,11 +66,12 @@
 						<h1>$600/mo</h1>
 					</div>
 					<ul>
-						<li>1 Photo per day on Instagram.</li>
-						<li>2-3 Facebook posts per week.</li>
-						<li>-</li>
-						<li>-</li>
-
+						<li>(1) Posts to Instagram <b>per Day</b></li>
+						<li>(2) Facebook post <b>per week</b></li>
+						<li>(1) Tweets <b>per Day</b></li>
+						<li>(1) Posts to Tumblr <b>per Day</b> (If Applicable)</li>
+						<li>(2) Three hour Advertising Slot on @TheGunLife</li>
+						<li>Monthly Page Progress Updates</li>
 					</ul>
 
 					<div class="pricing-btn">
@@ -85,10 +87,13 @@
 						<h1>$1000/mo</h1>
 					</div>
 					<ul>
-						<li>Bronze - $300</li>
-						<li>3 Photos Per week on Instagram</li>
-						<li>1 Facebook post per week</li>
-						<li>1 Ad Creation Per Month</li>
+						<li>(2) Posts to Instagram <b>per Day</b></li>
+						<li>(4) Facebook post <b>per Week</b></li>
+						<li>(2) Tweets <b>per Day</b></li>
+						<li>(2) Posts to Tumblr <b>per Day</b> (If Applicable)</li>
+						<li>(3) Three hour Advertising Slot on @TheGunLife</li>
+						<li>Advertising Manager (Contact us for more info)</li>
+						<li>Social Media Content Creation</li>
 					</ul>
 
 					<div class="pricing-btn">
@@ -104,10 +109,16 @@
 						<h1>$1500/mo</h1>
 					</div>
 					<ul>
-						<li>Bronze - $300</li>
-						<li>3 Photos Per week on Instagram</li>
-						<li>1 Facebook post per week</li>
-						<li>1 Ad Creation Per Month</li>
+						<li>(3) to (4) Posts to Instagram <b>per Day</b></li>
+						<li>(1) Facebook post <b>per Day</b></li>
+						<li>(2) Tweets <b>per Day</b></li>
+						<li>(3) Posts to Tumblr <b>per Day</b> (If Applicable)</li>
+						<li>(5) Three hour Advertising Slot on @TheGunLife</li>
+						<li>Advertising Manager (Contact us for more info)</li>
+						<li>Consistent Social Media Content Creation</li>
+						<li>Advertisment Design</li>
+						<li>Discounted Advertising across multiple social media pages.</li>
+						<li>Weekly Page Progress Updates</li>
 					</ul>
 
 					<div class="pricing-btn">
@@ -126,15 +137,15 @@
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1">
 
-				<h1>Some text</h1>
+				<h1>Why we do what we do</h1>
 				<p>
-					Hot Brass Media is not a corporation, we are a small team that strives to offer the best service possible. With this said before each consultation your personal consultant will carefully look through all your social media and critique how you are currently marketing yourself. If you have not begun this gives us a clean slate to begin with.
+					Understanding what exactly we offer through these packages can sometimes be confusing. Social media is interested because even when you go a few days without posting, followers begin to wonder why they follow in the first place. Our basic Bronze package offers you the peace of mind that your social media accounts will always have content on them and will keep you relevant in the community.
 				</p>
 				<p>
-					Your consultant will take time to show you and explain solutions that will help you better manage your social media. They are also an open book, any question you have they can answer. If they don’t know the answer they will find one.
+					With the Silver package get everything in Bronze, plus more daily posts and free access to some social media advertising.
 				</p>
 				<p>
-					If you are interested in a consultation they begin at $30 per hour, simply fill out the form below and we will contact you back as soon as possible.
+					All Plans are open to a mix and match service. Meaning, we can completely customize a managing plan to your specific needs.
 				</p>
 
 			</div>
