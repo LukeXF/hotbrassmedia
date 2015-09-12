@@ -153,7 +153,7 @@
 				</div>
 			</div>
 			<div class="col-md-12" style="margin-top: 30px;">
-				<a class="btn btn-default fill" href="our-services" role="button">get in touch with us</a>
+				<a class="btn btn-default fill" href="our-services" role="button">see our services</a>
 			</div>
 
 		</div>

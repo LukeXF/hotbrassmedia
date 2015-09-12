@@ -34,6 +34,7 @@
     			$lol = 8;
     		}
     		$( ".navbar" ).css( "background", "rgba(34, 34, 34, 0." + $lol  + ")");
+    		$( ".dropdown-menu" ).css( "background", "rgba(34, 34, 34, 0." + $lol  + ")");
         });
     });
     </script>
@@ -43,20 +44,37 @@
     		global $activeTab;
     		$i = 0;
     		foreach($denavbar as $x => $x_value) {
-    			if (!empty($x_value["active"])) { $class = $x_value["active"]; } else { $class = ""; }
-    			if (!empty($x_value["url"])) { $url = $x_value["url"]; } else { $url = $x; }
-    			if ($x == $activeTab) { $class = "current"; }
+
+    			if (!empty($x_value["active"])) {
+                    $class = $x_value["active"];
+                } else {
+                    $class = "";
+                }
+
+    			if (!empty($x_value["url"])) {
+                    $url = $x_value["url"];
+                } else {
+                    $url = $x;
+                }
+
+    			if ($x == $activeTab) {
+                    $class = "current";
+                }
+
     			if (!empty($x_value["submenu"])) {
+
     				echo "<li class='dropdown animate" . $class . "'>";
-    					echo "	<a href='#' class='dropdown-toggle animate' data-toggle='dropdown' role='button' aria-expanded='false'>" . $x . " 		<i class='fa fa-caret-down'></i>
+    					echo "	<a class='dropdown-toggle animate' data-toggle='dropdown' role='button' aria-expanded='false'>" . $x . " &nbsp;&nbsp;<i class='btl bt-angle-down'></i>
     							</a>
-    							<ul class='dropdown-menu' role='menu'><li>";
+    							<ul class='dropdown-menu' role='menu'>";
+    								echo "<li><a href='$url'>Services Overview</a></li>";
+                                    echo "<li class='divider'></li>";
     							foreach ($x_value['submenu'] as $key => $value) {
-    								echo "<a href='$value'>$key</a>";
+    								echo "<li><a href='$key'>$value</a></li>";
     							}
 
     						//echo "<li><a href='#''>Action</a></li>";
-    					echo "</li></ul>";
+    					echo "</ul>";
     				echo "</li>";
 
     			} else {
@@ -71,7 +89,15 @@
 		$navbar = array(
             "About Us" => array( "active" => "", "url" => "about-us"	, "submenu" => array() ),
 			"Our Photos" 	=> array( "active" => "", "url" => "our-photos" , "submenu" => array() ),
-			"Our Services" 	=> array( "active" => "", "url" => "our-services" , "submenu" => array() ),
+			"Our Services" 	=> array( "active" => "", "url" => "our-services" , "submenu" =>
+                array(
+                    "photography" => "Product Photography",
+                    "consulting" => "Social Media Consulting",
+                    "advertising" => "Social Media Advertising",
+                    "managing" => "Social Media Managing",
+                    "web-development" => "Web Development &amp; Branding"
+                )
+            ),
 			"Our Clients" => array( "active" => "", "url" => "our-clients"	, "submenu" => array() )
 		);
 
